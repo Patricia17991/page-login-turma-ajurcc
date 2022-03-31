@@ -1,43 +1,34 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <title>Página de Login</title>
 </head>
 <body>
-    <main class="container">
-        <h2>Login</h2>
-        <form action="">
-            <div class="input-field">
-                <input type="text" name="nome" id="nome" placeholder="Entre com seu Nome" required>
-                <div class="underline"></div> <!--é para ter uma linha em baixo do "nome" e "senha"-->
+  <div class="main">
+      <div class="div-esquerda">
+          <!--div com titulo e imagem-->
+          <h1>Faça login <br>e entre para o nosso time</h1>
+      </div>
+      <div class="div-direita">
+          <!--o use e password estão dentro de um card-->
+          <div class="card-login">
+              <!--div que engloba tanto a label quanto o input-->
+              <h1>LOGIN</h1>
+              <div class="textfield">
+                  <label for="usuario">Usuário</label>
+                  <input type="text" name="usuario" placeholder="Usuário">
+              </div>
+              <div class="textfield">
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" placeholder="Senha">
+                <button class="botao-login">Login</button>
             </div>
-            <div class="input-field">
-                <input type="password" name="password" id="password" placeholder="Entre com sua Senha" required>
-                <div class="underline"></div>
-            </div>
-
-            <input class="button-continue"type="submit" value="Continue"> 
-        </form>
-
-        <div class="footer"></div>
-        <spam>Conecte-se com sua Rede</spam>
-        <div class="social-field twitter">
-            <a href="https://twitter.com/"> <!--deixa com iperlink-->
-                <i class="fab fa-twitter"></i><!--iconi twitter-->
-                Entre com Twitter
-            </a>
-        </div>
-        <div class="social-field facebook">
-            <a href="https://www.facebook.com/">
-                <i class="fab fa-facebook-f"></i><!--iconi facebook-->
-                Entre com Facebook
-            </a>
-        </div>
-
-    </main>
+          </div>
+      </div>
+  </div>
 </body>
 </html>
