@@ -129,7 +129,7 @@ body * {
 
 /*estilizando o botão*/
 .botao-login {
-    width: 100%;
+    width: 90%;
     padding: 16px 0px;
     margin: 25px;
     border: none;
@@ -137,11 +137,13 @@ body * {
     outline: none; /*tirando o efeito que aparece no botão por padrão*/
     text-transform: uppercase; /*deixando tudo em maiúsculo no botão*/
     font-weight: 800;
-    letter-spacing: 3px; /*espacamento do nome login e das bordas*/
+    letter-spacing: 4px; /*espacamento do nome login e das bordas*/
     color: #2b134b;
     background: #00ff88;
     cursor: pointer; /*mudando o cursor quando colocá-o sobre o botão*/
     box-shadow: 0px 10px 40px -12px #00ff8052;
+    /*sem o -12px o botão fica com um leve brilho*/
+    
     
 }
 
