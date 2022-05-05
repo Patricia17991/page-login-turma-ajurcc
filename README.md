@@ -1,5 +1,5 @@
 # page-login-turma-ajurcc
-Página de login que vamos criar com os alunos de programação da AJURCC.
+Página de login que vamos criar com os alunos de programação da AJURCC  e usar para estudar sobre html e css.
 
 OBS! Ainda em desenvolvimento.
 
